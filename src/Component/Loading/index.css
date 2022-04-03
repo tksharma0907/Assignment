@@ -1,0 +1,8 @@
+.loading-container {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: #3498db;
+}

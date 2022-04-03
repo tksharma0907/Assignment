@@ -1,0 +1,40 @@
+.link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 12px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+}
+.card {
+  width: 100%;
+  margin: 10px 0px;
+  border-radius: 25px;
+  padding: 5px 3px 0px 3px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px #ccc;
+  background-color: #0093AB;
+}
+
+.image {
+  width: 350px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.footer{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.last {
+  visibility: hidden;
+}
+.card:hover .last {
+  visibility: visible;
+  transition-delay: 5s;
+}
